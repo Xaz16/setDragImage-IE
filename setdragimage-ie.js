@@ -44,7 +44,7 @@ if ('function' !== typeof DataTransfer.prototype.setDragImage) {
         dragStylesCSS = [
             '.' + randomDraggingClassName,
             '{',
-            'background: url("' + image.src + '") no-repeat #fff 0 0 !important;',
+            'background: url("' + image.src + '") no-repeat #fff 0 0/cover !important;',
             'width: ' + image.width + 'px !important;',
             'height: ' + image.height + 'px !important;',
             'text-indent: -9999px !important;',
